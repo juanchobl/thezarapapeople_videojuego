@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\InitializeGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControlHUD_SelectLevel.cs">
     <Files>
-      <File FileName="Assets\Scripts\InitializeGame.cs" Line="7" Column="1" />
-      <File FileName="Assets\Scripts\TextureSelector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CharacterSelector.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\prueba_cubo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\InitializeTextureSelection.cs" Line="13" Column="14" />
+      <File FileName="Assets\Scripts\LevelOnMap.cs" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\ControlHUD_SelectLevel.cs" Line="26" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

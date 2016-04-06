@@ -6,9 +6,13 @@ public class ControlHUD_SelectLevel : MonoBehaviour {
 	
 	// The current level in which the character is standing
 	public string currentLevel = "";
+
+	//genero escogido por el usuario
+	string gender;
 	
 	void Start () {
-	
+		//cojo el genero que este almcenado en player prefs para poder devolverme a el pro el boton back
+		gender = PlayerPrefs.GetString("gender");
 	}
 
 	void Update () {
@@ -23,6 +27,12 @@ public class ControlHUD_SelectLevel : MonoBehaviour {
 	}
 
 	public void back(){
-		// Application.LoadLevel(pantalla anterior a la de la seleccion de nivel)
+		if (gender.Equals ("man")) {
+			Application.LoadLevel("selectManAppearance");
+		}
+		
+		if (gender.Equals ("woman")) {
+			Application.LoadLevel("selectWomanAppearance");
+		}
 	}
 }
